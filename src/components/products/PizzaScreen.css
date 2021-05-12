@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+
+.product-details-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #ECF0F1;
+    height: 100vh;
+    margin-top: 4rem;
+    
+}
+
+.product-details-image-view{
+    width: 25%;
+
+}
+.product-details-card{
+    width: 22rem;
+    height: auto;
+}
+
+
+
+.product-select-options-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 60%;
+}
+
+
+.product-layer-options{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    border-radius: 5px;
+    height: 3rem;
+    border: 1px solid lightgray;
+    background-color: #FFFFFF;
+}
+
+
+.product-layer-title{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+.product-details-link{
+    text-decoration: none;
+    color: #70A401;
+    font-size: 1.5rem;
+}
+
+.product-details-link:hover{
+    text-decoration: none;
+    color: #70A401;
+}
+
+.select-option-title{
+    font-family: 'Open Sans', sans-serif;
+    color: crimson;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.select-crust-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+}
+
+.crust-select-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.select-crust{
+    padding: 10px;
+    border: 1px solid lightgray;
+    margin: 5px;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.select-crust:hover{
+    border: 1px solid #70A401;
+}
+
+.crust-image{
+    width: auto;
+    height: 3rem;
+}
+
+.select-size-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+
+}
+
+
+.select-sizes{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.select-prices{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.special-instruction-container{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border: 1px solid lightgray;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.text-area-container{
+    margin-top: 0.5rem;
+}
+
+.text-area{
+    width: 100%;
+    height: 4rem;
+    padding: 10px;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.select-quantity-container{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.select-quantiy-title{
+    font-size: 13px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+.select-quantity{
+    width: 4rem;
+    height: 2rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    margin-right: 1rem;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 2px;
+}
+
+.add-to-cart-btn{
+    width: 350px;
+    height: 2.5rem;
+    border: none;
+    background-color: #70A401;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and (max-width: 1000px) {
+    .product-details-container{
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        flex-direction: column;
+        width: 100%;
+        background-color: #ECF0F1;
+        gap: 10px;
+    }
+
+    
+}

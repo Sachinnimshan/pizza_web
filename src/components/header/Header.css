@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.header-container{
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid lightgray;
+    background-color: #FFFFFF;
+}
+
+.logo{
+    margin-right: 1rem;
+}
+.logo-img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.navbar{
+    width: 75%;
+    justify-content: start;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item{
+    margin: 1rem;
+}
+
+
+
+.nav-links{
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Goldman', cursive;
+    letter-spacing: 0.5px;
+    color: black;
+    font-weight: 550;
+}
+
+.nav-links:hover{
+    color: #EE161F;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.login-cart-container{
+    width: 25%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.sign-register-container{
+    width: 70%;
+    z-index: inherit;
+}
+
+.btn-user{
+    border: none;
+    background-color: transparent;
+    color: gray;
+    text-decoration: none;
+    border: 1px solid #808080;
+    font-size: 14px;
+    border-radius: 20px;
+    height: 2.5rem;
+    width: 150px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.btn-user:hover{
+    text-decoration: none;
+    color: #EE161F;
+}
+
+.cart-icon-container > span{
+    font-weight: bold;
+    font-size: 18px;
+    gap: 5px;
+}
+
+
+.cart-icon{
+    color: white;
+    font-size: 1.75rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+
+    .login-cart-container{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .nav-menu{
+        display: none;
+    }
+  }

@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    margin-top: 4rem;
+    width: 100%;
+}
+
+.cart-status{
+    margin-bottom: 0.5rem;
+}
+
+.cart-status > span {
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.cart-title{
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.cart-title-top{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+    
+}
+
+.cart-product-container{
+    border-top: 1px solid  lightgrey;
+    margin-top: 0.1rem;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/***************************************************/
+
+.cart-products-card{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #70A401;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.cart-products-card:hover{
+    border: 2px solid #70A401;
+}
+
+.cart-product-info{
+    display: flex;
+    align-items: center;
+}
+
+.cart-product-image{
+    width: 6rem;
+    height: auto;
+    border-radius: 5px 0 0 5px;
+}
+
+.cart-product-info > ul{
+    width: 10rem;
+
+}
+
+.cart-product-info > ul > li{
+    list-style-type: none;
+    padding: 2px;
+    margin-left: 0.5rem;
+}
+
+.cart-product-title{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    color: #70A401;
+}
+
+.cart-product-title:hover{
+    text-decoration: none;
+    color: #70A401;
+}
+
+
+.cart-product-delete{
+    font-size: 1.1rem;
+    cursor: pointer;
+    color: #70A401;
+    margin-right: 0.25rem;
+}
+
+.cart-product-delete:hover{
+    color: crimson;
+}
+
+
+
